@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Buttons</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            margin: 15px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .greet-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .wa-btn {
+            background-color: #25D366;
+            color: white;
+        }
+    </style>
+    <script>
+        function showGreeting() {
+            alert('✨ selamat tahun baru sayangv😚😚😚😚🥰🥰🥰🥰🫣🫣🫣 wahhhh kita bisa jalanin tahun ini bareng bareng sayang dari bulan Febuari ampe bulan desember ini, dah ternyata sayang adalah orang paling berharga yang aku temui di tahun ini, orang paling berkesan banget dalam hidupku, perjalan kita di tahun 2024 sangat bahagia yah sayang kita dari yang awalnya ga kenal bisa ampe jalanin hubungan yang tidak kita duga duga, kita jalanin hubungan ini dengan sepenuh hati dengan saling mengerti saling memberi effort, di tahun ini mungkin banyak goalku yang belum tercapai namun semua itu sebanding bahakan dengan hal lain yang aku dapetin di tahun 2024, di tahun ini rasanya aku bener bener jadi orang sayang yang punya masa depan yang punya impian , semua itu ga lepas dari peran ayang yang selalu kasih aku motifasi kasih aku semangat buat melangkah maju, semoga aku adalah orng yang terbaik juga yang ayang temuin di tahun 2024, dan harapanku di tahun 2025 adalah membuat ayang makin bahagia, terus makin bekerja keras buat impianku agar ayang bisa hidup bahagia di masa depan, yang paling utama adalah hubungan kita semoga makin deket makin ga ada masalah makin saling sayang deh pokoknya, semua goalku ga jauh jauh sayang dari kebahagiaan ayang, karena itu adalah hal utama😚🫂🫂🫂🫂🫂, aku yakin pasti di tahun 2025 makin banyak rintangan makin banyak hambatan dalam hubungan kita, entah faktor dari luar atau dari kita sendiri, di tahun 2025 juga aku yakin hubungan kita bakal makin deket makin serius, semoga kita bisa selalu barsama bisa selalu bahagia yaa sayanggg🫂🫂🫂🫂🫂🫂🫂 semoga semua keinginan harapan kita bisa terwujud yaa sayangg 🫂🫂🫂🫂🫂🫂🫂🫂, semoga sayang makin bahagia di tahun 2025🫂🫂🫂🫂🫂🫂🫂🫂 ✨');
+        }
+
+        function sendMessage() {
+            const phoneNumber = '628123456789'; // Ganti dengan nomor WA tujuan
+            const message = encodeURIComponent('');
+            const waLink = `https://wa.link/woi7lq`;
+            window.open(waLink, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <h1>selamat tahun baru sayanggg</h1>
+    <button class="greet-btn" onclick="showGreeting()">🎉 pesan iyannn atauu ucapan iyan</button>
+    <button class="wa-btn" onclick="sendMessage()">📲 kirim harapan ayang kesini yaa sayangg </button>
+</body>
+</html>
